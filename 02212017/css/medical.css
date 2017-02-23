@@ -25,6 +25,9 @@ body {
         margin-right: auto;
      }
 
+img {
+    width: 100%;
+}
 /*p에도 뭔가 써야하는 거였어!!!!*/
 p {
     margin-top: 0;
