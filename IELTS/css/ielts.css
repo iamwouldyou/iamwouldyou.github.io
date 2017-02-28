@@ -1,0 +1,84 @@
+html{
+    font-size: 10px;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    margin-top: 5.1rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+    background-color:#55635f;
+    background: url("../images/leading-21px.png");
+    font: 1.4rem/1.5 "Spoqa Han Sans";
+    line-height: 1.5;
+    color: #fff;
+ }
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+
+}
+
+    .container {
+        width: 850px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-bottom: 2.1rem;
+    letter-spacing: -0.05em;
+}
+
+h1 
+    {
+    font-size: 5.463rem; 
+    line-height: 6.3rem;
+    }
+
+    h2
+    {
+    color: #eaf75a;    
+    line-height: 6.3rem
+    }
+
+    h3 
+    {
+    font-size: 3.169rem;
+    line-height: 4.2rem;
+    }
+     
+    h4
+    {
+    font-size: 2.414rem;
+    line-height: 4.2rem;
+    color: #eaf75a; 
+    }
+
+    h5 
+    {
+    font-size: 1.838rem;
+    color: #00ffcc;
+    line-height: 4.2rem
+    }
+  
+
+
+a[href] {
+    text-decoration: none;
+}
+
+a[href]:hover{
+    color: #00ffcc;
+    text-decoration: underline; 
+}
