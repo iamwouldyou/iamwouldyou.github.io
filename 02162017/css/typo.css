@@ -1,0 +1,65 @@
+html{font-size: 16px;
+    margin: 0
+    }
+
+body{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background: url("../image/leading-24px.png");
+
+    font-size: 1rem;
+    font-family: "Spoqa Han Sans";
+    line-height: 1.5; 
+    /*rem단위는 line height에서는 쓰지않음*/
+    letter-spacing: -0.01em;
+    color: #0000ff;
+    }
+
+    .container {
+        width: 75%;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:rgba(111, 123, 321, 0.3);
+        }
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 1rem; 
+     /*여기있는 margin bottom으로 줄간격 조정함*/
+    letter-spacing: -0.040em;
+    }
+
+
+h5,h6,h3,h4 {
+    font-weight: 300;
+}
+/*font size는 말그대로 글자크기고 line height는 그 글자크기를 가지고 얼마나 공간을 차지하는지
+예를들어 fz1rem에 lh1.5rem 인데 html에서 폰트사이즈 16으로 정해놨으면 
+글꼴크기 16으로 24만큼의 공간을 차지하는 거임 */
+h6 {margin-top: 0; 
+    font-size: 1.5rem; 
+    line-height: 2.5rem
+    }
+h5 { 
+    font-size: 2.5rem;
+    line-height: 2rem;
+    }
+h4 { 
+    font-size: 3.5rem;
+    line-height: 4rem;
+    }
+h3 { 
+    font-size: 4.5rem;
+    line-height: 4rem;
+    }
+h2 { 
+    font-size: 5rem;
+    line-height: 4rem;
+    }
+h1 { 
+    font-size: 6rem;
+    line-height: 6rem;
+    }

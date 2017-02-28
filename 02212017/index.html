@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 이미지, 하이퍼링크, 리스트(순차, 비순차, 정의목록)</title>
+    <link rel="stylesheet" href="css/style.css">    
+    <!--favicon = favorite icon-->
+
+</head>
+<body>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt perferendis eveniet magni, expedita quae, consequatur maxime impedit mollitia sapiente molestias molestiae. Aliquid tempore accusamus totam quae reprehenderit voluptatem alias placeat.
+    
+    <h1 id=top>Anchor Point</h1> 
+
+    <!--image-->
+    <img src="./images/jeju1.jpg" alt="협재해수욕장">
+    <img src="./images/jeju2.jpg" alt="해물라면">
+
+    <div><img src="./images/jeju1.jpg" alt="협재해수욕장"></div>
+    <div><img src="./images/jeju2.jpg" alt="해물라면"></div>
+    
+    <!--hyperlink-->
+    <a href="http://fastcampus.co.kr">패스트캠퍼스</a>
+
+    <!--하이퍼링크 새창열기-->
+    <a href="http://fastcampus.co.kr"
+    target="blank">패스트캠퍼스</a>
+    
+    <!--페이지 최상단으로 이동-->
+    <a href="#"
+    >처음으로</a>
+
+  <!--목적지를 #뒤에 주기: id로 표시/ 위의 h1 id.. 
+  근데 id는 관리가 어렵고 중복되면 오류나서 잘 안씀. 주로 class를 쓴다-->
+    <a href="#top">
+    Go to top</a>
+
+    <!--anchor: 하이퍼링크 비슷한놈. 이제는 더이상 쓰이지 않음! 권장되지 않음-->
+  
+  
+    <!--lists: 순서에 의미를 주는 것/ 불릿으로 하면 비순차목록 unordered list UL, 
+    숫자가 나와있으면 순차목록 ordered list OL -->
+    <!--순차목록 OL-->
+    <ol>
+            <!--목록항목(list item LI: 숫자로 목록이 생김 -->
+        <li>치킨을 시킨다</li>       
+        <li>기다린다</li>  
+
+    </ol> 
+
+    <!--비순차목록 UL: 앞에 불렛이 붙는다  -->
+    <UL>
+        <li>양념치킨</li>  
+        <li>후라이드치킨</li>  
+    </UL>
+
+    <!--정의목록 Definition List DL -->
+    <!-- 정의용어 definition term dt -->
+    <!--정의용어 기술내용 definition description DD -->
+    <DL>
+    <dt>치킨</dt>
+        <dd>닭튀김</dd> 
+          <!--  dd는 자동으로 들여쓰기가 됨. 들여쓰기 폭을 조정하는게 css임  -->
+    <dt>양념치킨</dt>
+        <dd>매콤달콤한 양념을 바른 치킨</dd>
+
+
+
+
+
+
+
+</body>
+</html>

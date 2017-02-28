@@ -1,0 +1,72 @@
+html {font-size: 10px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background: url("../image/leading-24px.png");
+    
+    /* 상속되는 속성: 부모->자식, 상속값도 설정해야됨- inherit */
+    
+     /*fz tab = font size*/
+    
+    font-size: 1.6rem; 
+    font-family: "Spoqa Han Sans";
+    line-height: 1.5;
+    letter-spacing: -0.1em;
+    color: #010101;
+    }
+
+/*페이지 요소를 담을 컨테이너*/
+    .container {
+        width: 80%;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(221, 221, 221, 0.5);
+    }
+
+    /*타이포그래피 설계내용 */
+
+    /*본문(단락) 디자인*/
+p  {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    }
+
+    /*제목 디자인: Type Scale x1.25 */
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0; 
+    margin-bottom: 2.4rem; 
+    letter-spacing: -0.070em;
+    }
+
+h1,h2,h3,h4 {
+    font-weight: 300;
+}
+
+h6 { 
+    font-size: 1.5rem;
+    line-height: 2.4rem
+    }
+h5 { 
+    font-size: 2.5rem;
+    line-height: 4.8rem;
+    }
+h4 { 
+    font-size: 3.125rem;
+    line-height: 4.8rem;
+    }
+h3 { 
+    font-size: 3.906rem;
+    line-height: 4.8rem;
+    }
+h2 { 
+    font-size: 4.803rem;
+    line-height: 4.8rem;
+    }
+h1 { 
+    font-size: 6.104rem;
+    line-height: 7.2rem;
+    }

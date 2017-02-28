@@ -1,0 +1,135 @@
+html 
+    {
+    font-size: 10px;
+    margin: 0;
+    }
+
+body {
+    min-height: 100vh;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background: url("../images/leading-21px.png");
+
+   /* font: 두께 기울기 응용(varient- 대소문자 캐피털라이징 등) 
+   크기/행간 글꼴; */
+    font: 1.4rem/1.5 "Spoqa Han Sans"; 
+   /* body에서 디자인할때는 폰트설정은 속기형으로 하고 추후 개별적으로 디자인한다*/
+    color:#333741;
+    /*font-size: 1.4rem;*/
+    /*font-family: "Spoqa Han Sans";*/
+    line-height: 1.5
+    }
+    
+     .container {
+        width: 82rem;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+
+     }
+
+     .header {
+         margin-top: 8.4rem; 
+         text-align: center;
+     }
+
+     .footer{        
+         margin-bottom: 6.3rem;}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+    margin-bottom: 2.1rem;
+    /* 블록요소 내 이미지하단공간 제거*/
+}
+
+/*본문디자인: p에도 뭔가 써야하는 거였어!!!! 
+여기선 단락과 제목 공통*/
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+/*상대값이니까 rem말고 em을 씁니다*/
+}
+
+/* 제목 공통 디자인*/
+   h1,h2,h3,h4,h5,h6 
+   {margin-bottom: 2.1rem;
+    letter-spacing: -0.05em;
+    }
+    h1,h2,h3,h4{
+    font-weight: 300;
+   }
+    h5,h6{
+    font-weight: 400;
+    line-height: 2.1rem
+    }
+    
+    h1 
+    {
+    font-size: 5.463rem; 
+    line-height: 6.3rem;
+    }
+
+    h2
+    {}
+
+    h3 
+    {
+    font-size: 3.169rem;
+    line-height: 4.2rem;
+    }
+     
+    h4
+    {}
+
+    h5 
+    {
+    font-size: 1.838rem;
+    color: #787f94;
+    }
+  
+    h6 
+    {
+    font-size: 1.563rem;
+    color: #47494e;
+    }
+    
+    p {
+        line-height: 
+    }
+
+
+/*목록 공통 디자인*
+/*개별 디자인:  ul/ol/*/
+
+ul,ol{
+/*웹브리우저 기본스타일 제거(User Agent Style)*/
+margin-top: 0;
+padding-left: 0;
+list-style-type: none;
+}
+
+li {
+    margin-bottom: 4.2rem;
+}
+
+
+/*  상태디자인
+기본상태 normal state, ;link
+방문한 상태 visited state, ;visited
+마우스 올라간 상태 hover state :hover
+클릭한/활성상태 active state :active
+비활성상태 deactive state (x)
+포커스상태 focus state :focus
+*/
+/*hyperlink design*/
+a[href] {
+    text-decoration: none;
+}
+
+a[href]:hover{
+    color: #00ffcc;
+    text-decoration: underline; 
+}

@@ -1,0 +1,17 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    background: url("../image/leading-24px.png");
+}
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1.5em; /*16 x 1.5 = 24 */
+        font-size: 16px;
+        font-family: "Spoqa Han Sans";
+        letter-spacing: -0.005em; /*em단위; 1000분의5를 줄인다는 뜻임*/
+        line-height: 1.5; /*16 x 1.5 = 24인데 여기엔 em 쓰면 버그생기니까 단위쓰지마 */
+        color: #0f6e7c;
+    }
