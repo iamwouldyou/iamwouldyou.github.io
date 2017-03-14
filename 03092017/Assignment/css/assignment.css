@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.Banner {
+    position: absolute;
+    width: 800px;
+    height: 320px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.Banner * {
+    position: absolute;
+}
+
+
+.banner_splash {
+    top: 170px;
+}
+
+.banner_gorillas {
+    bottom: 20px;
+}
+
+.banner_kingkong {
+    left: 480px;
+    bottom: 0px;
+}
+
+.banner_logo {
+    left: 20px;
+    top: 20px;
+}
+
+.banner_text {
+    top: 25px;
+    left: 120px;
+}
