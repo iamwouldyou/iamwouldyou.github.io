@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    height: 100vh;
+    /*Gradient: location값을 퍼센테이지로 색상 퍼지는 범위 조정
+    선형/ 원형/ 리피트등등 */
+
+    background: radial-gradient(gray, #010010);
+}
+
+.album {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    }
+
+.album * {
+    position: absolute; 
+
+    }
+
+.album_disk {
+    right: -30px;
+    width: 290px;
+    height: 290px;
+}
+
+.album_disk.is-rotate {
+    animation: rotate-disk 10s infinite;
+}
+
+@keyframes rotate-disk {
+    0% {transform: rotate (0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.album_vynil {
+    left: 0px;
+}
+.album_cover {
+    /*그림자 주기*/
+    box-shadow: 0 4px 6px  hsla(0, 0%, 0%, 0.4); 
+    /*모서리깎기*/
+    border-radius: 3px; 
+    width: 287px;
+    height: 287px;
+}

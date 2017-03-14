@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS - overflow (넘쳐난 흐름 제어)</title>
+    <link rel="stylesheet" href="css/overflow.css">
+</head>
+<body>
+
+<!-- p*3>lorem80 -->
+
+<div class="demo o-hidden">
+    <p>HIDDEN: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo laudantium itaque eaque odit, earum alias repellat unde, fugiat aspernatur nemo facere quos quibusdam rem animi fugit consequuntur, id consectetur sequi aliquam asperiores. Fuga itaque magnam laudantium blanditiis, pariatur aliquid laborum facilis sequi, quisquam commodi eligendi cupiditate fugit! Ratione corporis a beatae dolor sunt, tenetur culpa maiores hic veritatis est. Quo accusamus voluptas reprehenderit adipisci, suscipit inventore cumque aut voluptatibus hic possimus optio mollitia, necessitatibus rem veritatis sapiente dolorem dolorum ut?</p>
+    <p>Nam veritatis quisquam iste minus optio omnis nemo sint, itaque totam! Quae labore error blanditiis perferendis inventore, optio consequatur suscipit, officia ducimus aspernatur minima voluptas impedit ab eaque voluptates ullam dignissimos perspiciatis quisquam veritatis natus cumque dolores vel nesciunt voluptatum! Quod, voluptates, fuga. Ea est at quis non minus natus magnam assumenda, aut autem neque repudiandae repellendus, unde repellat corporis commodi soluta mollitia possimus pariatur quaerat. Veniam, assumenda facilis. Delectus molestiae illo itaque obcaecati, laborum sunt veniam, ducimus recusandae amet.</p>
+    <p>Laborum eius, possimus minima ullam quasi rerum molestiae magnam ipsam amet recusandae saepe at asperiores laboriosam provident cum, iure quia fugit dignissimos vel. Aliquid impedit vel possimus ipsa, pariatur eum ad enim sapiente harum itaque, molestiae error architecto suscipit. Repellendus obcaecati, minus quod illum earum harum laboriosam culpa sed aut nisi vel recusandae eligendi saepe, id ex sint, doloremque laborum. A voluptas officiis odit reprehenderit numquam eius porro tempore facilis molestiae perspiciatis, dolorem voluptates impedit debitis, quaerat quae reiciendis sint.</p>
+</div>
+
+<!-- .demo.o-auto>p*3>lorem80 -->
+<div class="demo o-auto">
+    <p>AUTO: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint laboriosam ratione ea repellendus excepturi eligendi perspiciatis nesciunt natus alias eveniet sequi blanditiis aliquid cumque, enim nam nobis aut quod nulla vero fuga quas. Explicabo natus modi molestiae, tempore vitae sapiente nihil hic, nobis voluptatibus repudiandae voluptates placeat officiis aperiam voluptatum perferendis, voluptas aut corporis? Tenetur quo quod at sequi quae et natus, ab modi minus suscipit optio recusandae quas velit amet illo sapiente placeat. Obcaecati ad, officia quod itaque magnam.</p>
+    <p>Minus rerum ullam minima explicabo laudantium ab perspiciatis magni repudiandae, temporibus provident sunt sint modi quo beatae adipisci, fugiat laboriosam corporis sit aliquam debitis, enim nam amet voluptatibus sed possimus. Autem odit quos quo assumenda at, eligendi totam laborum velit debitis veritatis praesentium cumque veniam, nulla est beatae harum impedit cum vero dignissimos recusandae? A quibusdam nostrum sed fugit numquam provident iusto saepe ipsum nihil, quaerat fugiat ducimus illo aperiam rem repellendus autem eaque laudantium perferendis. Tenetur minima explicabo voluptate.</p>
+    <p>Magni consequuntur quo, doloribus illo, in pariatur quidem dignissimos possimus. Aliquam debitis neque voluptatum eligendi asperiores, doloribus molestias dicta, maxime laudantium necessitatibus eum nemo deleniti cupiditate sit doloremque ratione voluptate natus, fugiat nobis eius molestiae. Voluptates doloribus ad, odio voluptatibus beatae rerum eius nostrum libero delectus cupiditate autem itaque consectetur molestiae animi impedit sunt similique suscipit dignissimos laudantium at. Est ipsam id amet saepe perferendis sed sit eaque fugiat eos similique ut, earum, temporibus iusto eveniet minus doloremque fuga quisquam.</p>
+</div>
+
+<!-- .demo.o-scroll>p*3>lorem80-->
+<div class="demo o-scroll">
+    <p>SCROLL: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sapiente, deleniti accusamus recusandae ipsam asperiores provident minima sit. Asperiores nihil iste doloremque cumque dolorem voluptate voluptatibus quisquam aut a harum, omnis nesciunt exercitationem perferendis. Nisi voluptatum, molestiae totam sint, fugiat enim eveniet hic error dicta voluptate soluta placeat, doloribus reprehenderit nam, distinctio voluptates porro cupiditate cumque nostrum culpa! Cupiditate enim atque modi nihil mollitia provident blanditiis voluptatibus fugit, praesentium, eos, quia ducimus commodi natus cumque vitae porro, repudiandae quo optio.</p>
+    <p>Aperiam quidem dolorem error quasi porro, quis cupiditate ratione eum impedit in inventore sint, accusantium officiis obcaecati dignissimos natus culpa velit, voluptates labore ab, illum alias nulla? Possimus cum dolorum maiores reiciendis deleniti quod magni id dolore quidem beatae omnis ipsum earum rem excepturi suscipit ipsa, quis eligendi reprehenderit aliquid perferendis, incidunt! Odit possimus amet ex provident veniam aperiam! Eaque voluptatibus odit culpa dicta aut ex consectetur nesciunt, fuga, vero iure eligendi tenetur id ab quibusdam rem optio cupiditate laudantium.</p>
+    <p>Quam, illo temporibus veniam repellat placeat quos optio hic libero cum soluta delectus nihil eveniet laboriosam, reprehenderit explicabo distinctio est iste voluptatum quod laudantium ipsum quibusdam doloribus! Dignissimos similique sequi pariatur dolorum tenetur, rem aperiam sunt ex et error, ducimus, nobis hic mollitia excepturi, non harum. Ipsum quo sapiente eaque laboriosam laudantium error mollitia debitis vel. Nostrum corporis, asperiores? Quia illo quae sunt maxime ratione libero vero distinctio dolorem repudiandae, earum rem est dolor vel fugit aut quibusdam, deserunt quos!</p>
+</div>
+
+<!-- .demo.o-hidden>p*3>lorem80 -->
+<div class="demo o-visible">
+    <p>VISIBLE: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum tempora cum sit corporis odio, iste minima modi nesciunt dolor id consequuntur magnam reiciendis numquam libero assumenda pariatur adipisci excepturi sequi alias unde, exercitationem iure eligendi. Dolorem iusto, laborum, soluta accusantium dolore adipisci. Necessitatibus ea deserunt, error a tempora placeat, optio tenetur modi, fugiat ipsa esse saepe? Facilis, voluptatem dolorum. Quasi voluptates nam ut doloribus sit, libero quis, aperiam fugiat unde praesentium a quisquam, dignissimos cumque temporibus. Harum qui, at. Eligendi!</p>
+    <p>Quidem quasi praesentium nulla natus soluta quod rerum, magnam in minima culpa, libero vel saepe nesciunt similique modi neque, nostrum maxime magni odit. Architecto commodi voluptatum animi quidem, culpa qui? Nulla ipsam, quam maiores excepturi veniam nesciunt laudantium suscipit alias corporis et, facilis delectus, minus saepe at nostrum cumque eius similique asperiores non consequatur architecto ea. Magnam corrupti reprehenderit, porro facere minus obcaecati sit, quisquam atque velit, cupiditate aliquid mollitia aspernatur quos nemo temporibus eveniet, fuga maxime esse aut officiis.</p>
+    <p>Aliquid, explicabo recusandae est ullam soluta, deleniti voluptate repellat ad architecto qui quasi optio in tempora illo. Nihil quam dignissimos obcaecati optio iusto, nisi officiis rem, quisquam mollitia recusandae beatae itaque maxime at quasi aperiam ad magnam laudantium facilis vero consequuntur quaerat, delectus quis eum voluptatibus. Fugiat vero architecto itaque sed, tempora ipsam minus sapiente tenetur qui earum distinctio incidunt dolorem? Mollitia laudantium et suscipit. Enim error perspiciatis voluptatem dolore culpa sequi suscipit itaque vero doloremque, totam dolores, dignissimos animi.</p>
+</div>
+
+</body>
+</html>

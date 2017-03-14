@@ -1,0 +1,126 @@
+
+body {
+    margin: 0;
+}
+
+.target {
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+    /*부모에 랠러티브 줘야 부모 기준으로 움직인다*/
+    color: green;
+    text-decoration: none;
+    /*앵커에서 링크쓸때 기본값에 밑줄안주려면 논으로 설정*/
+    display: inline-block;
+    /*디스플레이 설정 기본이 인라인인데 그러면 가상요소 적용이안됨
+    그러므로 인라인블록으로 디스플레이 바꿔줄것*/
+}
+
+/* 가상요소 before/after- 가상요소가 자식인셈임 */
+.target::after {
+content: '';
+position: absolute;
+/*부모가 랠러티브고 자식에 앱솔루트 쓰기*/
+top: 0;
+bottom: 0;
+left: 50%;
+right: 50%;
+/*왼쪽 오른쪽 반반씩 가운데서 나오게 하는거임
+숫자가 작아질수록 줄이 길어지는거지*/
+border-bottom: 3px solid green;
+transition: all 0.4s;
+/*트랜지션 속성 달리하면 양쪽 나오는 속도도 바꿀수있어 참고*/
+/*transition: left 0.4s ease-out, right 0.2s;*/
+}
+
+.target:hover::after {
+    right: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+/*부모에 높이를 줘야돼!!!!!*/
+.parent-box {
+    margin: 2rem;
+    border: 10px solid gray;
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 180px;
+    color: #fff;
+    line-height: 180px;
+    text-align: center;
+}
+
+.box:nth-child(1) {
+    background: lightpink;
+    z-index: 20;
+    }
+.box:nth-child(2) {
+    background: pink;
+    z-index: 40;
+    }
+.box:nth-child(3) {
+    background: hotpink;
+        z-index: 30;
+    }
+.box:nth-child(4) {
+    background: deeppink;
+        z-index: 10;
+    }
+
+.vertex-lt {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.vertex-rb {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.vertex-rt {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.center {
+    position: absolute;
+  
+    /*margin-left: -90px;*/
+    /*margin-top: -100px;*/
+    /*마진레프트 마진탑 절반씩 해주면 정중앙에옴*/
+    
+  /*모든 브라우저 호환되게 정중앙에 오게하는방법은 이거레알*/
+
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+
+}
+
+/*  유지보수 최대한 줄이는법: transform!!!!!
+rotate degree
+scale 
+skew 기울임 
+translate 위치이동/다른 박스에 영향안주고 지혼자 움직임*/
+/*translateX: translateY:*/
+
+
+

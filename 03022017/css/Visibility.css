@@ -1,0 +1,11 @@
+
+.v-hidden {
+    color:#faf;
+    visibility: hidden;
+}
+
+.hidden {
+    color: #faa;
+    /*visibility: hidden;*/
+    display: none;
+}

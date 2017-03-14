@@ -1,0 +1,20 @@
+.dropcap{
+    width: 50%;
+}
+
+/*여기서의 span: dropcap 내부의 "자손"을 찾아라*/
+/*.~~~~ >span 이라고 하면 자식이 되겠지 */
+
+/*p class의 dropcap의 하위에 있는 span class가 
+.dropcap__first-child이므로 
+.dropcap .dropcap__first-child가 됨*/
+/*.dropcap .dropcap__first-child{*/
+  
+.dropcap::first-letter {  
+    float: left;
+    margin-right: 10px;
+    color: #faa;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1em;
+}

@@ -33,6 +33,12 @@ body {
      .header {
          margin-top: 8.4rem; 
          text-align: center;
+        margin-bottom: 2.1rem;
+     }
+
+     .main {
+
+        margin-bottom: 2.1rem;
      }
 
      .footer{        
